@@ -29,7 +29,7 @@ while True:
         player1["сумма"] -= player1["ставка"]
     else:
         print("ничья")
-    print(player1["имя"],player1["сумма"])
+    print(player1["имя"],player1["сумм  `<q></q>а"])
     print(player2["имя"],player2["сумма"])
 
     if player1["сумма"] <= 0:
