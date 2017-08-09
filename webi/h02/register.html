@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Регистриуйся или умри</title>
+</head>
+<body>
+  <h1>Ты попал. Регистрируйся или умри!!!</h1>
+  <form name="register" action="halid.py">
+    <label for="name">Имя:</label>
+    <input type="text" name="name" value="Саид">
+    <br>
+
+    <label for="surname">Фамилия:</label>
+    <input type="text" name="surname" placeholder="Фамилия">
+    <br>
+
+    <label for="email">Почта:</label>
+    <input type="email" name="email" placeholder="said@smail.ru" required>
+    <br>
+
+    <label for="password">Пароль:</label>
+    <input type="password" name="password" required>
+    <br> 
+
+    <label for="age">Возраст:</label>
+    <input type="number" name="age" min="1" max="194" value="1" step="10">
+    <br>
+
+    <label for="ddate">Дата смерти:</label>
+    <input type="date" name="ddate">
+    <br>
+
+    <label for="gender">Пол:</label>
+    <br>
+    <label>Мужчина:</label>
+    <input type="radio" name="gender" value="man">
+    <label>Женщина:</label>
+    <input type="radio" name="gender" value="wooman">
+    <label>Нет:</label>
+    <input type="radio" name="gender" value="no">
+    <br>
+
+    <label for="photo">Фото: </label>
+    <input type="file" name="photo">
+    <br>
+
+    <label for="city">Город: </label>
+    <select name="city">
+      <option value="1">Махачкала</option>
+      <option value="2">Москва</option>
+      <option value="3">Изберг</option>
+    </select>
+    <br>
+
+    <label>О себе: </label>
+    <textarea></textarea>
+    <br>
+
+    <input type="submit" name="ok" value="Послать">
+    <input type="reset" name="cancel" value="Отменить">
+
+  </form>
+
+  <button>Просто кнопка</button>
+  
+</body>
+</html>
