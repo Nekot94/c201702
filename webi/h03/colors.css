@@ -1,0 +1,11 @@
+.best-color {
+    /* color: wheat; */
+    /*color: rgb(255, 24, 25);*/
+    color: #3CE0D2;
+}
+
+.best-color2 {
+    /*color: hsl(60,100%,50%);*/
+    color: rgba(255,0,0,0.6);
+}
+
