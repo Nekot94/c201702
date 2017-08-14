@@ -1,0 +1,79 @@
+@font-face {
+    font-family: MainMaga;
+    src: url(10682.ttf);
+}
+
+body {
+    background: wheat;
+}
+
+
+.text1 {
+    color: #FF4444;
+    /*font-size: 1.5em;*/
+    /*font-size: 150%;*/
+    font-size: 24px;
+    /*text-align: right;*/
+    text-align: justify;
+    /*text-decoration: underline;*/
+    /*text-decoration: overline;*/
+    /*text-decoration: line-through;*/
+/*    line-height: 50px; 
+    letter-spacing: -5px;
+    word-spacing: 100px;*/
+    /*text-transform: uppercase;*/
+    text-transform: lowercase;
+    font-weight: 800;
+    font-style: oblique;
+    font-family: Arial, sans-serif;
+    font-family: serif;
+    font-family: monospace;
+
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    color: #AA44FF;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #AA88FF;
+}
+
+/*a:visited {
+    color: black;
+}
+*/
+.maga {
+    font-family: MainMaga;
+}
+
+ul {
+    /*list-style: none;*/
+    list-style: url("heat.png");
+}
+
+table {
+    margin: auto;
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid blue;
+}
+
+td, th {
+    border: 1px solid blue;
+    padding: 10px 12px;
+}
+
+tr:nth-child(even) {
+    background: #FF9999;
+}
+
+tr:first-child {
+    background: #4F3;
+}
